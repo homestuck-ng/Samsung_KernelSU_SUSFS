@@ -25,16 +25,16 @@ By flashing this kernel, **YOU** are choosing to make these modifications. If so
 
 | Kernel | Repository | Status |
 |--------|------------|--------|
-| 🏗️ **GKI** | [GKI_KernelSU_SUSFS](https://github.com/homestuck-ng/GKI_KernelSU_SUSFS) | ✅ Active |
-| 👑 **Sultan** | [Sultan_KernelSU_SUSFS](https://github.com/homestuck-ng/Sultan_KernelSU_SUSFS) | ✅ Active |
-| 📱 **OnePlus** | [OnePlus_KernelSU_SUSFS](https://github.com/homestuck-ng/OnePlus_KernelSU_SUSFS) | ✅ Active |
-| 📱 **Samsung** | [Samsung_KernelSU_SUSFS](https://github.com/homestuck-ng/Samsung_KernelSU_SUSFS) | ✅ Active |
+| 🏗️ **GKI** | [GKI_KernelSU_SUSFS](https://github.com/WildKernels/GKI_KernelSU_SUSFS) | ✅ Active |
+| 👑 **Sultan** | [Sultan_KernelSU_SUSFS](https://github.com/WildKernels/Sultan_KernelSU_SUSFS) | ✅ Active |
+| 📱 **OnePlus** | [OnePlus_KernelSU_SUSFS](https://github.com/WildKernels/OnePlus_KernelSU_SUSFS) | ✅ Active |
+| 📱 **Samsung** | [Samsung_KernelSU_SUSFS](https://github.com/WildKernels/Samsung_KernelSU_SUSFS) | ✅ Active |
 
 ---
 
 ## 🔗 Additional Resources
 
-- 🩹 [Kernel Patches](https://github.com/homestuck-ng/kernel_patches)
+- 🩹 [Kernel Patches](https://github.com/WildKernels/kernel_patches)
 - ⚡ [Kernel Flasher](https://github.com/fatalcoder524/KernelFlasher)
 
 ---
@@ -90,7 +90,7 @@ Flashing this kernel will void your warranty, and there is always a risk of bric
 ## 📱 Connect With Us
 
 [![Telegram](https://img.shields.io/badge/Telegram-Jimsterino98-blue?logo=telegram)](https://t.me/Ngadhnjim98)
-[![Telegram Group](https://img.shields.io/badge/Telegram-Wild__Kernels-blue?logo=telegram)](https://t.me/homestuck-ngTG)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Wild__Kernels-blue?logo=telegram)](https://t.me/WildKernelsTG)
 
 </div>
 

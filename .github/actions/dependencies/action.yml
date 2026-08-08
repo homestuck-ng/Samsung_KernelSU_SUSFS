@@ -9,5 +9,5 @@ runs:
     run: |
      ANYKERNEL_BRANCH="gki-2.0"
      
-     git clone https://github.com/homestuck-ng/kernel_patches.git
-     git clone https://github.com/homestuck-ng/AnyKernel3.git -b "$ANYKERNEL_BRANCH"
+     git clone https://github.com/WildKernels/kernel_patches.git
+     git clone https://github.com/WildKernels/AnyKernel3.git -b "$ANYKERNEL_BRANCH"
