@@ -7,7 +7,7 @@ runs:
     - name: Locate and extract kernel version
       shell: bash
       run: |
-        REPO="WildKernels/Samsung_Kernels"
+        REPO="homestuck-ng/Samsung_Kernels"
 
         echo "Searching for kernel Makefile on branch $BRANCH"
 

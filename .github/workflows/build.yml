@@ -368,7 +368,7 @@ jobs:
           if [ -d "$CONFIG/KernelSU-Next" ]; then
             cd "$CONFIG/KernelSU-Next"
             KSUN_COMMIT=$(git rev-parse HEAD)
-            KSUN_URL="https://github.com/WildKernels/KernelSU-Next/commit/$KSUN_COMMIT"
+            KSUN_URL="https://github.com/homestuck-ng/KernelSU-Next/commit/$KSUN_COMMIT"
             echo "- **KernelSU-Next**: [$KSUN_COMMIT]($KSUN_URL)" >> "$GITHUB_WORKSPACE/build_summary.md"
             cd "$GITHUB_WORKSPACE"
           else
