@@ -1,0 +1,24 @@
+name: "Apply stock_defconfig patch"
+description: "Replaces /proc/config.gz source with stock_defconfig to hide KSU/SUSFS"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Apply stock_defconfig patch
+      shell: bash
+      run: |
+        cd "$COMMON"
+        
+        # Создайте stock_defconfig если его нет
+        if [ ! -f "arch/arm64/configs/stock_defconfig" ]; then
+          cp arch/arm64/configs/gki_defconfig arch/arm64/configs/stock_defconfig
+          # Удалите KSU/SUSFS опции
+          sed -i '/CONFIG_KSU/d' arch/arm64/configs/stock_defconfig
+          sed -i '/CONFIG_SUSFS/d' arch/arm64/configs/stock_defconfig
+        fi
+        
+        # Примените патч к kernel/Makefile
+        sed -i 's|$(obj)/config_data: $(KCONFIG_CONFIG) FORCE|$(obj)/config_data: arch/arm64/configs/stock_defconfig FORCE|' kernel/Makefile
+        
+        echo "✅ Applied stock_defconfig patch"
+        grep -n "config_data:" kernel/Makefile

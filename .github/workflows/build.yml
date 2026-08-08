@@ -288,6 +288,9 @@ jobs:
 
       - name: enable FULL LTO
         uses: ./.github/actions/lto
+
+      - name: Apply stock_defconfig patch
+        uses: ./.github/actions/stock-defconfig
         
       - name: Build
         uses: ./.github/actions/build
