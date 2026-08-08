@@ -148,7 +148,7 @@ jobs:
 #            build_type: "make"
 #          - branch: "SM-S908E-Oneui8"
 #            build_type: "make"
-          - branch: "SM-S901E-Oneui8"
+          - branch: "r0q-oneui61"
             build_type: "make"
 #          - branch: "SM-M556B-Oneui8"
 #            build_type: "make"
